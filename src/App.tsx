@@ -11,15 +11,13 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 
 function App() {
   return (
-		<div>
+		<>
 			<header className='sticky top-0 bg-base-100/80 backdrop-blur shadow z-40'>
 				<div className="flex justify-between gap-12 lg:gap-20 max-w-7xl mx-auto px-4 py-3 md:pt-5">
 					<a href="/#" className='flex gap-2 items-center hover:bg-base-200 rounded'>
@@ -553,7 +551,7 @@ Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断�
 					</div>
 				</div>
 			</footer>
-		</div>
+		</>
   )
 }
 
