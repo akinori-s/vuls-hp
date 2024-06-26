@@ -34,8 +34,11 @@ function App() {
 						<a href="/#料金" className="text-[#333333] font-medium">ドキュメント</a>
 						<a href="/editor" className="text-[#333333] font-medium">ブログ</a>
 					</div>
-					<button className="bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] text-white font-bold px-2 py-1 md:px-4 md:py-2 rounded">
+					<button className="hidden md:block bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] text-white font-bold px-2 py-1 md:px-4 md:py-2 rounded">
 						無料デモ・お問い合わせ
+					</button>
+					<button className="md:hidden bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] text-white font-bold px-4 py-1 md:px-4 md:py-2 rounded">
+						お問い合わせ
 					</button>
 				</div>
 			</header>
@@ -51,7 +54,7 @@ function App() {
 								<h2 className='text-lg md:text-2xl font-bold text-[#333333] text-center lg:text-left mb-5 md:mb-8 border-white border-2 border-solid hover:border-violet-500 hover:border-2 hover:border-solid'>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 								</h2>
-								<ul className='md:block text-md md:text-xl leading-relaxed space-y-1 mb-5 md:mb-8'>
+								<ul className='md:block text-md md:text-xl leading-relaxed space-y-1 mb-5 md:mb-8 mx-auto md:mx-0'>
 									<li className='flex items-center justify-start lg:justify-start gap-1.5'>
 										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-6 h-6 text-green-500">
 											<path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd"></path>
@@ -71,7 +74,7 @@ function App() {
 										Automated vulnerability management
 									</li>
 								</ul>
-								<button className="text-lg md:text-2xl bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] text-white font-bold px-8 py-3 rounded-lg">
+								<button className="text-lg md:text-2xl bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] text-white font-bold px-8 py-3 rounded-lg mx-auto md:mx-0">
 									無料デモ・お問い合わせ
 								</button>
 							</div>
@@ -94,7 +97,7 @@ function App() {
 								</div>
 							</div>
 							<CarouselContent>
-								<CarouselItem className="basis-1/3">
+								<CarouselItem className="basis-5/6 md:basis-1/3">
 									<Card>
 										<CardHeader>
 											<CardTitle className='h-8 flex flex-row items-center mx-auto text-lg'>
@@ -110,7 +113,7 @@ function App() {
 										</CardContent>
 									</Card>
 								</CarouselItem>
-								<CarouselItem className="basis-1/3">
+								<CarouselItem className="basis-5/6 md:basis-1/3">
 									<Card>
 										<CardHeader>
 											<CardTitle className='h-8 flex flex-row items-center mx-auto text-lg'>
@@ -126,7 +129,7 @@ function App() {
 										</CardContent>
 									</Card>
 								</CarouselItem>
-								<CarouselItem className="basis-1/3">
+								<CarouselItem className="basis-5/6 md:basis-1/3">
 									<Card>
 										<CardHeader>
 											<CardTitle className='h-8 flex flex-row items-center mx-auto text-lg'>
@@ -142,7 +145,7 @@ function App() {
 										</CardContent>
 									</Card>
 								</CarouselItem>
-								<CarouselItem className="basis-1/3">
+								<CarouselItem className="basis-5/6 md:basis-1/3">
 									<Card>
 										<CardHeader>
 											<CardTitle className='h-8 flex flex-row items-center mx-auto text-lg'>
@@ -158,7 +161,7 @@ function App() {
 										</CardContent>
 									</Card>
 								</CarouselItem>
-								<CarouselItem className="basis-1/3">
+								<CarouselItem className="basis-5/6 md:basis-1/3">
 									<Card>
 										<CardHeader>
 											<CardTitle className='h-8 flex flex-row items-center mx-auto text-lg'>
@@ -214,23 +217,23 @@ function App() {
 							</div>
 						</div>
 						<div className='w-full flex flex-col'>
-							<div className='bg-white rounded-xl py-6 px-20 mb-6'>
+							<div className='bg-white rounded-xl py-2 md:py-6 px-2 md:px-20 mb-6'>
 								<img src="how_it_works.png" alt="How it works" />
 							</div>
 							<div className='flex flex-col md:flex-row gap-6'>
-								<div className='w-full bg-white rounded-xl py-6 px-10'>
+								<div className='w-full bg-white rounded-xl py-4 md:py-6 px-6 md:px-10'>
 									<h4 className='text-xl font-bold mb-4'>1. 情報収集・脆弱性検出</h4>
 									<p className='text-md'>
 										年間2万件以上の脆弱性が新たに公開されています 自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変 Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
 									</p>
 								</div>
-								<div className='w-full bg-white rounded-xl py-6 px-10'>
+								<div className='w-full bg-white rounded-xl py-4 md:py-6 px-6 md:px-10'>
 									<h4 className='text-xl font-bold mb-4'>2. 影響調査・対策検討</h4>
 									<p className='text-md'>
 										年間2万件以上の脆弱性が新たに公開されています 自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変 Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
 									</p>
 								</div>
-								<div className='w-full bg-white rounded-xl py-6 px-10'>
+								<div className='w-full bg-white rounded-xl py-4 md:py-6 px-6 md:px-10'>
 									<h4 className='text-xl font-bold mb-4'>3. パッチ適用</h4>
 									<p className='text-md'>
 										年間2万件以上の脆弱性が新たに公開されています 自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変 Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
@@ -248,52 +251,52 @@ function App() {
 								<h3 className='text-lg md:text-3xl font-bold text-[#333333] text-center'>特徴</h3>
 							</div>
 						</div>
-						<div className='w-full flex flex-col gap-10'>
-							<div className='flex flex-col md:flex-row gap-10'>
-								<div className='w-1/2 bg-white rounded-xl py-6'>
+						<div className='w-full flex flex-col gap-10 px-3 md:px-0'>
+							<div className='flex flex-col md:flex-row md:gap-10'>
+								<div className='md:w-1/2 bg-white rounded-xl py-6 md:py-0'>
 									<h3 className='md:text-md font-bold text-gradient bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] mb-1'>1 SSVCモデルを使用した優先度付け</h3>
 									<h4 className='text-xl font-bold mb-4'>脆弱性スキャナとしての高い支持</h4>
 									<p className='text-md mb-4'>
 										年間2万件以上の脆弱性が新たに公開されています
-自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
-Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
-システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
+										自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
+										Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
+										システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
 									</p>
 									<a href="/" className='text-[#BDBDBD] hover:underline'>詳細を見る</a>
 								</div>
-								<div className='w-1/2'>
+								<div className='md:w-1/2'>
 									<img src="ssvc_model.png" alt="" />
 								</div>
 							</div>
-							<div className='flex flex-col md:flex-row-reverse gap-10'>
-								<div className='w-1/2 bg-white rounded-xl py-6'>
+							<div className='flex flex-col md:flex-row-reverse md:gap-10'>
+								<div className='md:w-1/2 bg-white rounded-xl py-6 md:py-0'>
 									<h3 className='md:text-md font-bold text-gradient bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] mb-1'>2 脆弱性スキャナとしての高い支持</h3>
 									<h4 className='text-xl font-bold mb-4'>脆弱性スキャナとしての高い支持</h4>
 									<p className='text-md mb-4'>
 										年間2万件以上の脆弱性が新たに公開されています
-自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
-Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
-システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
+										自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
+										Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
+										システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
 									</p>
 									<a href="/" className='text-[#BDBDBD] hover:underline'>詳細を見る</a>
 								</div>
-								<div className='w-1/2'>
+								<div className='md:w-1/2'>
 									<img src="vuls_github.png" alt="" />
 								</div>
 							</div>
-							<div className='flex flex-col md:flex-row gap-10'>
-								<div className='w-1/2 bg-white rounded-xl py-6'>
+							<div className='flex flex-col md:flex-row md:gap-10'>
+								<div className='md:w-1/2 bg-white rounded-xl py-6 md:py-0'>
 									<h3 className='md:text-md font-bold text-gradient bg-gradient-to-bl from-[#FFCE15] to-[#FF9900] mb-1'>3 脆弱性対応フローの自動化</h3>
 									<h4 className='text-xl font-bold mb-4'>脆弱性スキャナとしての高い支持</h4>
 									<p className='text-md mb-4'>
 										年間2万件以上の脆弱性が新たに公開されています
-自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
-Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
-システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
+										自分が管理するシステムに関係する脆弱性なのかを１つ１つ確認するのは大変
+										Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断に必要な情報をまとめて表示
+										システム内の脆弱性を可視化し、対応が必要な脆弱性に注力できます
 									</p>
 									<a href="/" className='text-[#BDBDBD] hover:underline'>詳細を見る</a>
 								</div>
-								<div className='w-1/2'>
+								<div className='md:w-1/2'>
 									<img src="vuls_screenshot.png" alt="" />
 								</div>
 							</div>
@@ -308,8 +311,8 @@ Vulsは管理下のシステムに関係する脆弱性のみ検出し、判断�
 								<h3 className='text-lg md:text-3xl font-bold text-[#333333] text-center'>料金</h3>
 							</div>
 						</div>
-						<div className="flex justify-center">
-							<div className="w-5/6 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-0 rounded-lg md:rounded-xl shadow-[0_0_25px_rgba(235,87,87,0.27)]">
+						<div className="flex justify-center px-4 md:px-0">
+							<div className="w-full md:w-5/6 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-0 rounded-lg md:rounded-xl shadow-[0_0_25px_rgba(235,87,87,0.27)]">
 								{/* Left Column */}
 								<div className="bg-white p-8 rounded-lg md:rounded-none md:rounded-l-xl shadow-md flex flex-col justify-between items-center">
 									<div className='w-full'>

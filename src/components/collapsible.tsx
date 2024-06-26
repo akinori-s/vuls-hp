@@ -9,7 +9,7 @@ const Collapsible: React.FC<{ title: string, children: any}> = ({ title, childre
 	};
 
 	return (
-		<div className={`${isOpen ? 'mb-4' : ''} border-t`}>
+		<div className={`${isOpen ? 'mb-4' : ''} border-t-2`}>
 			<button onClick={toggleCollapse} className={`w-full flex justify-between items-center text-left  p-4 text-[#333333] font-medium`}>
 				{title}
 				<div>
