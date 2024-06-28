@@ -188,28 +188,27 @@ function App() {
 				</section>
 				<section id=''>
 					<div className='max-w-[106rem] mx-auto px-4 py-10 md:pt-20 md:pb-20'>
-						<div className="grid grid-rows-4 grid-cols-6 gap-x-28 grid-flow-row">
-						{/* <div className="w-full flex flex-row flex-wrap justify-center gap-x-28"> */}
-							<img src="logo_class_method.png" alt="logo_class_methodlogo_class_method" />
-							<img src="logo_akatsuki.png" alt="logo_akatsukilogo_akatsuki" />
-							<img src="logo_board.png" alt="logo_board" />
-							<img src="logo_jtb.png" alt="logo_jtb" />
-							<img src="logo_boldly.png" alt="logo_boldly" />
-							<img src="logo_kdl.png" alt="logo_kdl" />
-							<img src="logo_cloud_native.png" alt="logo_cloud_native" />
-							<img src="logo_hitachi.png" alt="logo_hitachi" />
-							<img src="logo_smarthr.png" alt="logo_smarthr" />
-							<img src="logo_bunnkasho.png" alt="logo_bunnkasho" />
-							<img src="logo_morinaga.png" alt="logo_morinaga" />
-							<img src="logo_bookoff.png" alt="logo_bookoff" />
-							<img src="logo_dentsu.png" alt="logo_dentsu" />
-							<img src="logo_sompo.png" alt="logo_sompo" />
-							<img src="logo_kawase.png" alt="logo_kawase" />
-							<img src="logo_biccamera.png" alt="logo_biccamera" />
-							<img src="logo_dental_hearts.png" alt="logo_dental_hearts" />
-							<img src="logo_future.png" alt="logo_future" />
-							<img src="logo_ntt_docomo.png" alt="logo_ntt_docomo" />
-							<img src="logo_mainavi.png" alt="logo_mainavi" />
+						<div className="w-full flex flex-row flex-wrap justify-center gap-x-4 md:gap-x-14 lg:gap-x-18">
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_class_method.png" alt="logo_class_methodlogo_class_method" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_akatsuki.png" alt="logo_akatsukilogo_akatsuki" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_board.png" alt="logo_board" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_jtb.png" alt="logo_jtb" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_boldly.png" alt="logo_boldly" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_kdl.png" alt="logo_kdl" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_cloud_native.png" alt="logo_cloud_native" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_hitachi.png" alt="logo_hitachi" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_smarthr.png" alt="logo_smarthr" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_bunnkasho.png" alt="logo_bunnkasho" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_morinaga.png" alt="logo_morinaga" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_bookoff.png" alt="logo_bookoff" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_dentsu.png" alt="logo_dentsu" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_sompo.png" alt="logo_sompo" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_kawase.png" alt="logo_kawase" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_biccamera.png" alt="logo_biccamera" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_dental_hearts.png" alt="logo_dental_hearts" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_future.png" alt="logo_future" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_ntt_docomo.png" alt="logo_ntt_docomo" />
+							<img className='w-[20%] md:w-1/6 lg:w-[11%]' src="logo_mainavi.png" alt="logo_mainavi" />
 						</div>
 					</div>
 				</section>
